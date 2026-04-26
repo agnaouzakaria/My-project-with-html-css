@@ -1,6 +1,6 @@
- My Registration Page Project
+# My Registration Page Project
 
-  Description
+##  Description
 Ce projet est une interface d'inscription interactive et responsive, développée avec **HTML5** et **CSS3**. C'est un projet personnel réalisé en **auto-formation** pour approfondir mes compétences en développement Front-end et en design d'interface (UI).
 
 ##  Technologies utilisées
