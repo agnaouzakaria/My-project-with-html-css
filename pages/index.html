@@ -18,13 +18,6 @@ h1 {
 
 
 }
-
-.feedback {
-    padding-left: 35px;
-    color: darkblue;
-
-
-}
 a{
     display: block;
     text-align: left;
@@ -32,42 +25,70 @@ a{
 textarea {
     display: block;
     text-align: center;
-border-radius: 17px;
+    border-radius: 17px;
 }
 
 textarea {
-    background-color: rgba(127, 178, 220, 0.818);
-    max-height: 90px;
-    margin-left: 35%;
+    background:
+    radial-gradient(circle at top left, #008bae79, transparent 80%),
+    radial-gradient(circle at bottom right, #00952862, transparent 80%),
+    #ffffff9d;
+    max-height: 100px;
+    margin-left: 37%;
     
 }
 
 body {
-    background-color: skyblue;
-    max-width: 500px;
+    background:
+    radial-gradient(circle at top left, #7f5af0, transparent 40%),
+    radial-gradient(circle at bottom right, #1cb072, transparent 60%),
+    #c4d7ff;
+    
+    justify-content: center;
+    
+    align-items:flex-end ;
+    height: 100vh;
 }
 
+
+.feedback {
+    padding-top: 0%;
+    color: darkblue;
+
+
+}
 .jjj {
     padding: auto;
     text-align: center;
+}
+.font
+{
+    font-family: Poppins, sans-serif;
+}
+.height
+{
+max-width: 900px;
+margin: auto;
+line-height: 1.6;
 }
 
     </style>
 </head>
 
 <body>
-    <body>
-
-    <body>
 
 
-    <h1>Ziko site webe</h1>
-    <p><b>Hello in my site web ,this site web in a beta vertion ,thank you for tour visit</b></p>
+
+    <h1 class="font" >Introduction</h1>
+    <p class="font height"><b>
+I'm Zakaria, an IT student and technology enthusiast focused on programming, cybersecurity, and modern technologies.  
+Currently studying at EST Beni Mellal, I enjoy building projects, learning Linux systems, and improving my skills in Python, C, networking, and web development.
+</b></p>
     <br>
-    <p class="jj">Good luck</p>
-    <label for="feedback" class="feedback">Your feedback</label><br><br>
+    <p class="jj font">Thanks for visiting my website</p>
+    <label for="feedback" class="feedback font">Your feedback</label><br><br>
     <textarea id="feedback" name="feedback" placeholder="Enter your feedback" cols="22" rows="9"></textarea>
-<a href="pg2.html">Home</a>
+<a href="pg2.html" class="font">Sign Up Interface</a>
 </body>
 
 </html>
